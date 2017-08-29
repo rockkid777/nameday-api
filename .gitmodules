@@ -1,0 +1,3 @@
+[submodule "datafiles"]
+	path = datafiles
+	url = git@github.com:rockkid777/nameday-api.git
