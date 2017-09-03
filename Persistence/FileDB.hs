@@ -19,8 +19,8 @@ processLine =  fromList . take 2 . map T.strip . T.splitOn "\t" . T.strip
 
 namesForWithDb :: [NameDay] -> (Int, Int) -> [T.Text]
 namesForWithDb db date = case lookup date db of
-    Nothing      -> []
-    Just nameDay -> nameDay
+    Nothing    -> []
+    Just names -> names
 
 makeHandle :: String -> IO Handle
 makeHandle fileName = do
