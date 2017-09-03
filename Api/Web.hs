@@ -17,7 +17,6 @@ import           Network.Wai
 import           Network.Wai.Handler.Warp
 import           Persistence.Handle
 import           Servant
-import           System.IO                  (hPutStrLn, stderr)
 
 nameDayApi :: Proxy NameDayApi
 nameDayApi = Proxy
